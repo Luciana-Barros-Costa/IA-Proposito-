@@ -1,0 +1,6 @@
+@IAProposito_HostAddress = http://localhost:5160
+
+GET {{IAProposito_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
