@@ -1,0 +1,33 @@
+{
+  "Files": [
+    {
+      "Id": "/workspaces/IA-Proposito-/IAProposito/wwwroot/index.html",
+      "PackagePath": "staticwebassets/index.html"
+    },
+    {
+      "Id": "/workspaces/IA-Proposito-/IAProposito/wwwroot/wwwroot/css/style.css",
+      "PackagePath": "staticwebassets/wwwroot/css/style.css"
+    },
+    {
+      "Id": "/workspaces/IA-Proposito-/IAProposito/wwwroot/wwwroot/wwwroot/script.js",
+      "PackagePath": "staticwebassets/wwwroot/wwwroot/script.js"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.IAProposito.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.build.IAProposito.props",
+      "PackagePath": "build\\IAProposito.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildMultiTargeting.IAProposito.props",
+      "PackagePath": "buildMultiTargeting\\IAProposito.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildTransitive.IAProposito.props",
+      "PackagePath": "buildTransitive\\IAProposito.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

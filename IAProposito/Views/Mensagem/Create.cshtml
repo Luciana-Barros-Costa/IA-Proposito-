@@ -1,0 +1,22 @@
+@model IAProposito.Models.Mensagem
+
+<h2>Nova Mensagem</h2>
+
+<form method="post">
+    <div class="mb-3">
+        <label class="form-label">Texto</label>
+        <input class="form-control" name="Texto" required />
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label">Categoria</label>
+        <input class="form-control" name="Categoria" required />
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label">Autor</label>
+        <input class="form-control" name="Autor" required />
+    </div>
+
+    <button type="submit" class="btn btn-success">Salvar</button>
+</form>

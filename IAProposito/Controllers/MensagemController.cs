@@ -1,13 +1,11 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using IAProposito.Models;
 using IAProposito.Data;
+using IAProposito.Models;
 
 namespace IAProposito.Controllers
 {
-    [ApiController]
-    [Route("api/[controller]")]
-    public class MensagemController : ControllerBase
+    public class MensagemController : Controller
     {
         private readonly AppDbContext _context;
 
@@ -16,18 +14,28 @@ namespace IAProposito.Controllers
             _context = context;
         }
 
-        [HttpGet]
-        public async Task<IActionResult> Get()
+        public async Task<IActionResult> Index()
         {
-            return Ok(await _context.Mensagens.ToListAsync());
+            return View(await _context.Mensagens.ToListAsync());
+        }
+
+        public IActionResult Create()
+        {
+            return View();
         }
 
         [HttpPost]
-        public async Task<IActionResult> Post(Mensagem mensagem)
+        public async Task<IActionResult> Create(Mensagem mensagem)
         {
             _context.Mensagens.Add(mensagem);
             await _context.SaveChangesAsync();
-            return Ok(mensagem);
+            return RedirectToAction("Index");
+        }
+
+        public async Task<IActionResult> Details(int id)
+        {
+            var msg = await _context.Mensagens.FindAsync(id);
+            return View(msg);
         }
     }
 }

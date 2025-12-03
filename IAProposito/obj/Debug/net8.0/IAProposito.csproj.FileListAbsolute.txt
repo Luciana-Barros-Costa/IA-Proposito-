@@ -167,3 +167,6 @@
 /workspaces/IA-Proposito-/IAProposito/obj/Debug/net8.0/IAProposito.pdb
 /workspaces/IA-Proposito-/IAProposito/obj/Debug/net8.0/IAProposito.genruntimeconfig.cache
 /workspaces/IA-Proposito-/IAProposito/obj/Debug/net8.0/ref/IAProposito.dll
+/workspaces/IA-Proposito-/IAProposito/obj/Debug/net8.0/IAProposito.RazorAssemblyInfo.cache
+/workspaces/IA-Proposito-/IAProposito/obj/Debug/net8.0/IAProposito.RazorAssemblyInfo.cs
+/workspaces/IA-Proposito-/IAProposito/bin/Debug/net8.0/IAProposito.staticwebassets.runtime.json

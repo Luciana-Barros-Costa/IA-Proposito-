@@ -17,3 +17,27 @@ build_property.SupportLocalizedComponentNames =
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
 build_property.MSBuildProjectDirectory = /workspaces/IA-Proposito-/IAProposito
 build_property._RazorSourceGeneratorDebug = 
+
+[/workspaces/IA-Proposito-/IAProposito/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/workspaces/IA-Proposito-/IAProposito/Views/Mensagem/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTWVuc2FnZW0vQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/workspaces/IA-Proposito-/IAProposito/Views/Mensagem/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTWVuc2FnZW0vRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/workspaces/IA-Proposito-/IAProposito/Views/Mensagem/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTWVuc2FnZW0vSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/workspaces/IA-Proposito-/IAProposito/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/workspaces/IA-Proposito-/IAProposito/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 

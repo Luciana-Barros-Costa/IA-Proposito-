@@ -1,11 +1,77 @@
 {
   "Version": 1,
-  "Hash": "gEULBQ9VKGJPwO1H+CrpC70xQ2CWP6MVhDIEIc8G3PM=",
+  "Hash": "gOFlM4U/Zif9XkQkdHXmFMwxHQHYmKZ+uyy3am8tgzU=",
   "Source": "IAProposito",
   "BasePath": "_content/IAProposito",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
-  "Assets": []
+  "DiscoveryPatterns": [
+    {
+      "Name": "IAProposito/wwwroot",
+      "Source": "IAProposito",
+      "ContentRoot": "/workspaces/IA-Proposito-/IAProposito/wwwroot/",
+      "BasePath": "_content/IAProposito",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "/workspaces/IA-Proposito-/IAProposito/wwwroot/index.html",
+      "SourceId": "IAProposito",
+      "SourceType": "Discovered",
+      "ContentRoot": "/workspaces/IA-Proposito-/IAProposito/wwwroot/",
+      "BasePath": "_content/IAProposito",
+      "RelativePath": "index.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/index.html"
+    },
+    {
+      "Identity": "/workspaces/IA-Proposito-/IAProposito/wwwroot/wwwroot/css/style.css",
+      "SourceId": "IAProposito",
+      "SourceType": "Discovered",
+      "ContentRoot": "/workspaces/IA-Proposito-/IAProposito/wwwroot/",
+      "BasePath": "_content/IAProposito",
+      "RelativePath": "wwwroot/css/style.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/wwwroot/css/style.css"
+    },
+    {
+      "Identity": "/workspaces/IA-Proposito-/IAProposito/wwwroot/wwwroot/wwwroot/script.js",
+      "SourceId": "IAProposito",
+      "SourceType": "Discovered",
+      "ContentRoot": "/workspaces/IA-Proposito-/IAProposito/wwwroot/",
+      "BasePath": "_content/IAProposito",
+      "RelativePath": "wwwroot/wwwroot/script.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/wwwroot/wwwroot/script.js"
+    }
+  ]
 }

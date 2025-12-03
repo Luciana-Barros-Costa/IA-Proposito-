@@ -1,0 +1,28 @@
+@model IEnumerable<IAProposito.Models.Mensagem>
+
+<h2>Mensagens</h2>
+
+<a href="/Mensagem/Create" class="btn btn-success mb-3">Nova mensagem</a>
+
+<table class="table table-bordered">
+    <tr>
+        <th>ID</th>
+        <th>Texto</th>
+        <th>Categoria</th>
+        <th>Autor</th>
+        <th></th>
+    </tr>
+
+    @foreach (var mensagem in Model)
+    {
+        <tr>
+            <td>@mensagem.Id</td>
+            <td>@mensagem.Texto</td>
+            <td>@mensagem.Categoria</td>
+            <td>@mensagem.Autor</td>
+            <td>
+                <a class="btn btn-primary btn-sm" href="/Mensagem/Details/@mensagem.Id">Detalhes</a>
+            </td>
+        </tr>
+    }
+</table>
